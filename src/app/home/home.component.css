@@ -1,0 +1,35 @@
+/* ; */
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    align-content: center;
+    min-width: 100%;
+    background-image: url("../../assets/TonyVCap.jpg");
+    color: aliceblue;
+    min-height: 55vh;
+}
+
+.name-content {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    height: 100%
+}
+
+.title-name {
+    padding-left: 33%;
+    padding-top: 20%;
+}
+
+.name {
+    font-family: 'Comforter', cursive;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
