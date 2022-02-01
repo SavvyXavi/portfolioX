@@ -1,15 +1,23 @@
-/* ; */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body{
     padding: 0;
     margin: 0;
     height: 100vh;
     width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
 }
 
 .container {
     align-content: center;
     min-width: 100%;
-    background-image: url("../../assets/TonyVCap.jpg");
+    background-image: url("../../assets/blackdesktopbackground.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     color: aliceblue;
     min-height: 55vh;
 }
@@ -28,8 +36,24 @@ body{
 
 .name {
     font-family: 'Comforter', cursive;
+    font-size: 86px;
 }
 
 .title {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.buttons-container {
+    padding-left: 33%;
+    padding-top: 15px;
+}
+
+.btn {
+    color:aliceblue;
+    background-color: #cc9900;
+    border-color: #cc9900;
+}
+
+#project {
+    margin-right: 20px;
 }
